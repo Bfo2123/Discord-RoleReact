@@ -102,7 +102,7 @@ client.on("message", message => {
 
         for (const { emoji, role } of fields) {
             if (!message.guild.roles.find(r => r.name === role))
-                throw `The role '${role}' does not exist!`;
+                throw `The role '${role}' does not exist.`;
 
             const customEmote = client.emojis.find(e => e.name === emoji);
             
