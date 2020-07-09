@@ -34,7 +34,7 @@ function generateEmbedFields() {
 }
 
 // Client events to let you know if the bot is online and to handle any Discord.js errors
-client.on("ready", () => console.log("Role Reactions is online."));
+client.on("ready", () => console.log("Role Reactions is online!"));
 client.on('error', console.error);
 
 // Handles the creation of the role reactions. Will either send the role messages separately or in an embed
