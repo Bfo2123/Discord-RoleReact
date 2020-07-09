@@ -4,7 +4,7 @@
     "description": "A bot that automatically assigns roles based on message reactions.",
     "main": "role.js",
     "scripts": {
-        "start": "node .",
+        "start": "node start config.js",
         "test": "node tests.js"
     },
     "repository": {
