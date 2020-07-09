@@ -4,7 +4,7 @@ const CONFIG = require('./config');
 
 const client = new Client({ disableEveryone: true });
 if (CONFIG.botToken === '')
-    throw new Error("The 'botToken' property is not set in the config.js file. Please do this.");
+    throw new Error("The 'botToken' property is not set in the config.js file. Please do this!");
 
 client.login(CONFIG.botToken);
 
